@@ -1,0 +1,511 @@
+body {
+  font-family: "DINNextRoundedLTW01-Regular";
+}
+
+.h2 {
+  font-size: 3.5rem;
+}
+p {
+  font-size: 20px;
+}
+/* navbar starts here */
+.btn-liv {
+  background: #ed443d;
+  background: linear-gradient(90deg, #ed443d 0%, #f58035 50%, #ffc62c 100%);
+  color: #fff;
+  border: 0;
+  border-radius: 20px;
+}
+.navbar.bg-dark {
+  background-color: transparent !important;
+}
+.navbar img {
+  width: 45px;
+}
+@media only screen and (max-width: 600px) {
+  .navbar.bg-dark {
+    background-color: transparent !important;
+  }
+}
+/* navbar ends here */
+/* section0 starts here */
+.section0 {
+  overflow: hidden;
+  position: relative;
+}
+.section0 > img {
+  min-height: 1080px;
+  transform: scale(1.3, 1);
+}
+.transformedBanner {
+  transform: scale(1.7, 1) !important;
+}
+/* .section0-image {
+  background-image: url("https://lifestyle.azureedge.net/-/media/Liv/Website/Common/ParallaxBanner/default/bg.png");
+  background-size: cover;
+  background-position: center;
+} */
+.section0 .bannerText {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 100px;
+}
+.section0 .bannerText .p {
+  font-size: 30px;
+}
+.section0 .maincontent {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 300px;
+}
+.section0 .maintext {
+  padding-top: 100px;
+}
+.section0 .creditcardimage {
+  margin-top: -65px;
+  transition: 1s;
+}
+.section0 .sub-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+.shiftcreditcard {
+  left: 34%;
+  right: 34%;
+  width: 30% !important;
+  position: absolute;
+  bottom: -60px;
+  /* transform: translateX(-50%); */
+}
+@media only screen and (max-width: 600px) {
+  .section0 {
+    padding: 50px 0;
+  }
+  .section0 .h2 {
+    font-size: 35px;
+  }
+  .section0 .bannerText .p {
+    font-size: 20px;
+  }
+  .section0 .sub-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  .section0 .maintext {
+    padding-bottom: 200px;
+  }
+  .shiftcreditcard {
+    left: 30%;
+    right: 30%;
+    width: 40% !important;
+    position: absolute;
+    bottom: 45px;
+  }
+}
+/* section0 ends here */
+/* section1 starts here */
+.section1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 100px 0;
+}
+.section1 img {
+  width: 100px;
+}
+.mobile-screen_frame-container {
+  position: relative;
+}
+.mobile-screen_frame {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section1 video {
+  padding: 6%;
+}
+@media only screen and (max-width: 600px) {
+  .section1 {
+    padding: 50px 0;
+  }
+  .section1 .h2 {
+    font-size: 28px;
+  }
+  .section1 img {
+    width: 75%;
+  }
+}
+/* section1 ends here */
+
+/* section2 starts here */
+.section2 {
+  background-color: #2b2a2b !important;
+  padding: 100px 0;
+}
+.section2 img {
+  border-radius: 10px;
+  height: 80%;
+}
+.section2 .captions {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  width: 80%;
+}
+.section2 .overlay {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  width: 93%;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.section2 .row > div {
+  position: relative;
+  transition: 0.3s;
+}
+.section2 .row > div:hover {
+  transform: translate(0, -10px);
+}
+.captions img {
+  width: 60px;
+  height: 60px;
+}
+
+.section2 .image1 {
+  background-image: url(https://lifestyle.azureedge.net/-/media/Liv/Website/Common/RewardPrograms/Liv-Cashback.jpg);
+  z-index: 3;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+.section2 .image2 {
+  background-image: url(https://lifestyle.azureedge.net/-/media/Liv/Website/Common/RewardPrograms/Emirates-Skywards-Miles.jpg);
+  z-index: 3;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+.section2 .image3 {
+  background-image: url(https://lifestyle.azureedge.net/-/media/Liv/Website/Common/RewardPrograms/U-by-Emaar.jpg);
+  z-index: 3;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .section2 .h2 {
+    font-size: 28px;
+  }
+}
+/* section2 ends here */
+/* section3 starts here */
+.section3 {
+  padding: 100px 0;
+}
+.panel-heading.collapsed .fa-chevron-down,
+.panel-heading .fa-chevron-up {
+  display: inline-block;
+}
+
+.panel-heading.collapsed .fa-chevron-up,
+.panel-heading .fa-chevron-down {
+  display: none;
+}
+
+i.fa {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.collapsed ~ .panel-body {
+  padding: 0;
+}
+.section3 img {
+  width: 50px;
+  height: 50px;
+}
+.section3 .thumbnail img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.section3 .thumbnail > div {
+  padding-bottom: 15px !important;
+}
+.section3 .row > div {
+  padding-bottom: 15px !important;
+}
+@media only screen and (max-width: 600px) {
+  .section3 .h2 {
+    font-size: 28px;
+  }
+  .section3 > div:nth-of-type(1) p {
+    width: 100% !important;
+  }
+}
+/* section3 ends here */
+/* section4 starts here */
+.section4 {
+  background-color: #eee;
+  padding: 100px 0;
+}
+.section4 .card img.img1 {
+  width: 24px;
+}
+.section4 .card img.img2 {
+  width: 80px;
+}
+.section4 .card {
+  border-radius: 20px;
+}
+.section4 .card .row > div > div {
+  border-radius: 10px;
+}
+.section4 .card .row > div:nth-of-type(1) > div {
+  background-color: #00a1d5;
+}
+.section4 .card .row > div:nth-of-type(2) > div {
+  background-color: #e1302b;
+}
+.section4 .card .row > div:nth-of-type(3) > div {
+  background-color: #000000;
+}
+.section4 .card .overlay {
+  background: white !important;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
+.section4 .card .row.buttons > div > div:hover {
+  background-color: #eee !important;
+  cursor: pointer;
+}
+.section4 .card .row.buttons > div > div:active {
+  background-color: #00a9e0 !important;
+  color: white;
+  cursor: pointer;
+}
+.section4 .btn-outline-primary {
+  background-color: white !important;
+  border-color: #00a1d5 !important;
+  color: #00a1d5 !important;
+  border-radius: 20px;
+}
+.section4 .btn-outline-primary:hover {
+  background-color: #00a1d5 !important;
+  border-color: #00a1d5 !important;
+  color: white !important;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .section4 .h2 {
+    font-size: 28px;
+  }
+  .section4 .card img.img2 {
+    width: 60px;
+    border-radius: 10px;
+  }
+}
+/* section4 ends here */
+/* section5 starts here */
+.section5 {
+  background-image: url(https://lifestyle.azureedge.net/-/media/Liv/Website/Common/Images/benefits-bg.jpg);
+  height: 850px;
+  background-size: cover;
+}
+
+.section5 .wrapper .overlay {
+  position: absolute;
+  width: calc(100% - 30px);
+  height: 100%;
+  left: 15px;
+  top: 0;
+  border-radius: 25px;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: 0.5s;
+  background-color: white;
+  color: black;
+}
+.section5 .wrapper:hover .overlay {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.section5 .animate-cards img {
+  transition: 0.5s;
+}
+.section5 .overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+.section5 .animate-cards img {
+  width: 100%;
+  height: 100%;
+}
+.section5 .animate-cards > div {
+  margin-bottom: 30px;
+}
+.section5 .animate-cards > div img {
+  border-radius: 25px;
+}
+.section5 .custom-padding {
+  padding: 130px 0;
+}
+@media only screen and (max-width: 600px) {
+  .section5 .h2 {
+    font-size: 28px;
+  }
+}
+
+/* section5 ends here */
+
+/* section6 starts here */
+.section6 {
+  padding: 100px 0;
+}
+.section6 img {
+  width: 96px;
+}
+@media only screen and (max-width: 600px) {
+  .section6 .h2 {
+    font-size: 28px;
+  }
+}
+/* section6 ends here */
+/* section7 starts here */
+.section7 {
+  background-color: #151515 !important;
+  padding: 100px 0;
+}
+.section7 img {
+  width: 60px;
+}
+.section7 th {
+  background: #151515 !important;
+}
+.table thead th {
+  border: 0px;
+}
+.table td,
+.table th {
+  border-top: 0px;
+}
+.section7 tr:nth-child(even) {
+  background-color: #2b2a2b !important;
+}
+
+.section7 tr:nth-child(odd) {
+  background: rgb(20, 20, 20);
+}
+.section7 tr td,
+.section7 tr th {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section7 tbody img {
+  width: 15px;
+  height: 15px;
+}
+.section7 tr td:nth-of-type(1) {
+  text-align: left;
+}
+@media only screen and (max-width: 600px) {
+  .section7 .h2 {
+    font-size: 28px;
+  }
+}
+/* section7 ends here */
+/* section8 starts here */
+.section8 {
+  background-image: url(https://lifestyle.azureedge.net/-/media/Liv/Website/Common/Images/apply_bg.jpg);
+  background-size: cover;
+  height: 450px;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+.section8 .liv-btn {
+  border-radius: 20px;
+}
+.section8 .overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 600px) {
+  .section8 {
+    height: 350px;
+  }
+  .section8 .h2 {
+    font-size: 28px;
+  }
+}
+/* section8 ends here */
+/* section9 starts here */
+.section9 li {
+  list-style-type: none;
+}
+.section9 img {
+  width: 47px;
+}
+.section9 li {
+  padding: 0 15px;
+}
+.section9 .col-3 ul li {
+  padding: 15px;
+  border-radius: 50%;
+}
+.section9 .fa-facebook-f {
+  color: #3b5998 !important;
+}
+.section9 .fa-instagram {
+  color: #517fa4 !important;
+}
+.section9 .fa-twitter {
+  color: #00aced !important;
+}
+.section9 .fa-facebook-f {
+  color: #3b5998 !important;
+}
+.section9 .fab {
+  font-size: 1.5rem;
+}
+.section9 .col-3 ul li:hover {
+  background: #f5f5f5;
+}
+.section9 .privacy {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .section9 li:nth-of-type(5) {
+    display: none;
+  }
+  .section9 .privacy {
+    display: block;
+    margin: 0 auto;
+  }
+  .section9 ul:nth-of-type(1) {
+    justify-content: center;
+  }
+}
+
+/* section9 ends here */
